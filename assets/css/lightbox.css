@@ -233,7 +233,6 @@ html.lb-disable-scrolling {
   transition: all 0.5s ease;
 }
 
-
 .main-footer {
   background-color: #213250;
   margin-top: 4em;
@@ -942,7 +941,7 @@ a:not([href]):not([tabindex]) {
 
 /* accordion */
 .accordion {
-  background-color:#1b2946;
+  background-color: #1b2946;
   color: rgb(255, 255, 255);
   cursor: pointer;
   padding: 18px;
@@ -955,15 +954,14 @@ a:not([href]):not([tabindex]) {
 }
 
 .accordion:hover {
- 
   color: #ccc;
 }
-.active{
-  color:  #1b2946;
+.active {
+  color: #1b2946;
 }
 
 .accordion:after {
-  content: '\002B';
+  content: "\002B";
   color: #777;
   font-weight: bold;
   float: right;
@@ -975,7 +973,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .panel {
-  padding:0 18px;
+  padding: 0 18px;
   background-color: #1b2946;
   max-height: 0;
   overflow: hidden;
