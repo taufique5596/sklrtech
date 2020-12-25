@@ -954,9 +954,12 @@ a:not([href]):not([tabindex]) {
   transition: 0.4s;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc;
-  color: #1b2946;
+.accordion:hover {
+ 
+  color: #ccc;
+}
+.active{
+  color:  #1b2946;
 }
 
 .accordion:after {
