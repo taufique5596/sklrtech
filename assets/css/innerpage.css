@@ -1,0 +1,356 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.sec1{
+background-image: url('/assets/images/choosing-bg.jpg');
+color: #FFFFFF;
+}
+.sec1 .row{
+margin: 0%;
+}
+.sec1 .hero{
+padding: 10% 0% 7% 5%;
+}
+.sec1 .breadcrumb {
+padding-left: 0%;
+background-color: transparent !important;
+margin-bottom: 0%;
+}
+.sec1 .breadcrumb .breadcrumb-item a{
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.sec1 .breadcrumb .breadcrumb-item{
+color: #F5A425;
+}
+.sec1 h1{
+font-size: 38px;
+line-height: 50px;
+font-weight: 600;
+}
+.sec1 .description {
+margin: 5% 0% 3% 0%;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}
+.sec1 .little .col-md-6{
+padding: 0%;
+}
+
+.sec1 .little .price span , .sec1 .little .author span {
+color: #F5A425;
+}
+.sec1 .pay {
+background: #F5A425 0% 0% no-repeat padding-box;
+border-radius: 3px;
+opacity: 1;
+color: white;
+text-decoration: none;
+padding: 1% 4%;
+margin: 2% 0%;
+display: inline-block;
+}
+.callback {
+padding: 20% 20% 10% 20%;
+}
+.callback .form{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 1;
+border-top: 10px solid #F5A425;
+padding: 8% 10%;
+}
+.callback .form .head1{
+color: black;
+font-size: 20px;
+font-weight: 600;
+font-family: 'Montserrat', sans-serif;
+}
+.callback .form .head2{
+color: black;
+font-size: 15px;
+font-weight: 500;
+font-family: 'Montserrat', sans-serif;
+}
+.callback .form .form-control{
+margin: 3% 0%;
+}
+.callback .form .submit {
+background: transparent linear-gradient(180deg, #F5A425 0%, #9E7A41 100%) 0% 0% no-repeat padding-box;
+border-radius: 3px;
+opacity: 1;
+margin: 3% 0%;
+display: inline-block;
+border: none;
+outline: none;
+color: white;
+padding: 2%;
+font-weight: 600;
+}
+.sec2{
+background: #E8E9EB 0% 0% no-repeat padding-box;
+border: 1px solid #E8E9EB;
+margin: 3%;
+padding: 2% 5%;
+text-align: center;
+position: relative;
+}
+
+.sec2 h3{
+color: black;
+text-align: center;
+opacity: 1;
+font-weight: 500;
+margin-bottom: 3%;
+}
+
+.sec2 p{
+text-align: left;
+margin-left: 5%;
+position: relative;
+font-weight: 500;
+margin: 6% 0%;
+}
+.sec2 p::before {
+position: absolute;
+content: " ";
+background-color: #F5A425;
+width: 3%;
+height: 12px;
+left: -7%;
+right: 0%;
+top: 17%;
+}
+.sec3{
+margin: 2% 3%; 
+}
+.sec3 h3{
+color: black;
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 3%;
+}
+.sec3 p{
+color: black;
+font-size: 16px;
+font-weight: 500;
+}
+.sec3 .des{
+margin: 10% 15%;
+position: sticky;
+top: 0;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 3px 3px 6px #B8B8B829;
+border-radius: 8px;
+opacity: 1;
+}
+.sec3 .card .card-body .card-title{
+font-size: 18px;
+font-weight: 600;
+}
+.sec3 .card .card-body .card-content{
+font-size: 14px;
+font-weight: 500;
+}
+.sec3 .card .explore {
+border: 1px solid #F5A425;
+border-radius: 5px;
+opacity: 1;
+color: #F5A425;
+margin: 5%;
+display: block;
+padding: 2% 5%;
+text-align: center;
+font-weight: 500;
+}
+.sec3 #accordion .card{
+margin: 1% 5% 1% 2%;
+}
+
+.sec3 #accordion .card .btn{
+width: 100%;
+text-align: left;
+text-decoration: none;
+color: black;
+
+font-weight: 450;
+outline: none;
+box-shadow: none;
+border: none;
+}
+
+.sec3 #accordion .card .btn i{
+margin: 0% 2% 0% 0%;
+margin-top: auto;
+margin-bottom: auto;
+font-size: 15px;
+float: right;
+}
+
+
+.sec3 #accordion .card .card-header{
+background: #E6E8EA 0% 0% no-repeat padding-box;
+border: 1px solid #E6E8EA;
+opacity: 1;
+}
+
+.sec3 #accordion .card .card-body ul li{
+font-size: 16px;
+font-weight: 500;
+}
+
+@media screen and (max-width:1024px) {
+.sec1 .breadcrumb .breadcrumb-item a {
+
+font-size: 15px;
+}
+.sec1 .breadcrumb .breadcrumb-item {
+font-size: 15px;
+}
+.sec1 h1 {
+font-size: 32px;
+line-height: 45px;
+}
+.sec1 .description {
+font-size: 17px;
+
+}
+.callback {
+padding: 20% 15% 10% 15%;
+}
+.callback .form .head2 {
+font-size: 13px;
+}
+.callback .form .form-control {
+font-size: 13px;
+}
+.sec2 h3 {
+font-size: 22px;
+}
+.sec2 p {
+font-size: 14px;
+}
+.sec2 p::before {
+height: 9px;
+}
+.sec3 h3 {
+font-size: 22px;
+}
+.sec3 p {
+font-size: 14px;
+}
+.sec3 #accordion .card {
+margin: 1% 0% 1% 2%;
+}
+.sec3 #accordion .card .btn {
+font-size: 15px;
+}
+.sec3 #accordion .card .card-body ul li {
+font-size: 15px;
+}
+.sec3 .des {
+margin: 10% 7%;
+}
+}
+
+@media screen and (max-width:900px){
+.sec1 .breadcrumb .breadcrumb-item a {
+font-size: 13px;
+}
+.sec1 .breadcrumb .breadcrumb-item  {
+font-size: 13px;
+}
+.sec1 h1 {
+font-size: 25px;
+line-height: 35px;
+}
+.sec1 .description {
+font-size: 15px;
+line-height: 25px;
+}
+.price , .author{
+font-size: 14px;
+}
+.sec1 .pay {
+padding: 1% 6%;
+font-size: 15px;
+}
+.callback {
+padding: 20% 8% 10% 8%;
+}
+.sec2 p {
+font-size: 13px;
+}
+.sec2 p::before {
+height: 6px;
+}
+.sec2 h3 {
+font-size: 20px;
+}
+.sec3 h3 {
+font-size: 20px;
+}
+.sec3 p {
+font-size: 13px;
+}
+.sec3 .des {
+margin: 10% 0%;
+}
+.sec3 .card .card-body .card-title {
+font-size: 15px;
+}
+.sec3 .card .card-body .card-content {
+font-size: 12px;
+}
+.sec3 .card .explore {
+font-size: 13px;
+}
+.sec3 #accordion .card .card-body ul li {
+font-size: 13px;
+}
+.sec3 #accordion .card .btn {
+font-size: 14px;
+}
+}
+
+@media screen and (max-width:767px){
+.sec1 .hero {
+padding: 10% 5% 7% 5%;
+text-align: center;
+}
+.callback {
+padding: 0% 8% 10% 8%;
+}
+.sec1 .little .col-md-6 {
+padding: 0%;
+max-width: 50%;
+}
+.sec1 .pay {
+padding: 2% 8%;
+font-size: 16px;
+}
+.sec2 {
+padding: 2% 13%;
+}
+.sec2 h3 {
+font-size: 22px;
+}
+.sec2 p {
+font-size: 15px;
+}
+.sec2 p::before {
+height: 10px;
+top: 28%;
+}
+.sec3 .des {
+margin: 10% 8%;
+}
+}
+
+@media screen and (max-width:500px){
+.sec1 .hero {
+padding: 20% 5% 7% 5%;
+}
+}

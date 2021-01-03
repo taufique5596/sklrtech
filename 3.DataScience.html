@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Web Devlopment</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="assets/css/innerpage.css" />
+  </head>
+
+  <body>
+    <!--header-->
+    <header class="main-header clearfix" role="header">
+      <div class="logo">
+        <a href="index.html"><em>Skolar</em>tech</a>
+      </div>
+    </header>
+
+    <div class="sec1" style="padding-top: 10px">
+      <div class="row">
+        <div class="col-md-6 hero">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Courses</a></li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Data Science
+              </li>
+            </ol>
+          </nav>
+          <h1>Data Science with Python and Machine Learning</h1>
+          <p class="description">
+            Skolar’s data science course walks you through the entire field of
+            Data Science and familiarizes you with some of the most important
+            modules of the field, helping build your expertise in a very short
+            amount of time.
+          </p>
+          <div class="little">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="price">Price :- <span>&#8377; 4200</span></p>
+              </div>
+              <div class="col-md-6">
+                <p class="author">Author :- <span>Rajeev Kumar</span></p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="pay">Pay Now</a>
+        </div>
+        <div class="col-md-6">
+          <div class="callback">
+            <form action="#" method="POST" class="form">
+              <p class="head1">Book a call</p>
+              <p class="head2">
+                Curious to know how and where to start our amazing courses.
+              </p>
+              <input
+                type="text"
+                class="form-control"
+                id="f_name"
+                name="f_name"
+                placeholder="Student Name *"
+                required
+              />
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Email ID *"
+                required
+              />
+              <input
+                type="tel"
+                class="form-control"
+                id="phone"
+                name="phone"
+                placeholder="Contact Number *"
+                required
+              />
+
+              <button type="submit" class="btn-block submit" id="submit">
+                Request a callback
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sec2">
+      <h3>Salient Features</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <p>20+ hours of live sessions</p>
+          <p>2 major and minor projects</p>
+          <p>Personal dashboard to track your progress</p>
+        </div>
+        <div class="col-md-4">
+          <p>Weekly assignments and regular progress reports.</p>
+          <p>Dedicated student mentor</p>
+          <p>Weekly doubt sessions by industry experts</p>
+        </div>
+        <div class="col-md-4">
+          <p>Webinars on competitive coding and placements</p>
+          <p>Multiple Coding practice tests</p>
+          <p>Internship Opportunities with Recruiting Partners</p>
+        </div>
+      </div>
+    </div>
+    <div class="sec3">
+      <div class="row">
+        <div class="col-md-7">
+          <h3>Discription</h3>
+          <p>
+            Start learning Python and Machine Learning for Data Science with
+            Skolar’s most exclusive online training program. This
+            beginner-friendly course has been curated to provide you some of the
+            best experiences and resources while easing up your learning at the
+            same time.
+          </p>
+          <p>
+            This course is the right fit for you if you want to learn Data
+            Science but are worried about having a lack of experience in the
+            field. You are going to learn all the fundamentals of Python, ML
+            algorithms, and find yourself learning everything about the field
+            through our newest modules, video lessons, and projects.
+          </p>
+          <h3>Course Content</h3>
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    Introduction
+                    <i class="fa fa-plus"></i>
+                  </button>
+                </h5>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>Introduction to Data Science</li>
+                    <li>Introduction to Python</li>
+                    <li>Data Analysis Pipeline</li>
+                    <li>What is Data Extraction</li>
+                    <li>Types of Data</li>
+                    <li>Raw and Processed Data</li>
+                    <li>Data Wrangling</li>
+                    <li>Overview of the Analytics Techniques</li>
+                    <li>Analytics</li>
+                    <li>Business Analytics</li>
+                    <li>Business Intelligence</li>
+                    <li>Industry Examples</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Python Fundamentals
+                    <i class="fa fa-plus"></i>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>Fundamentals</li>
+                    <li>Functions in Python</li>
+                    <li>Object -Oriented Concepts</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Python MySQL
+                    <i class="fa fa-plus"></i>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>Environment Setup</li>
+                    <li>Database Connection</li>
+                    <li>Creating a New Database</li>
+                    <li>Creating Tables</li>
+                    <li>Insert Operation</li>
+                    <li>Read Operation</li>
+                    <li>Update Operation</li>
+                    <li>Join Operation</li>
+                    <li>Performing Transactions</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingfour">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapse4"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Numpy<i class="fa fa-plus"></i>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapse4"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>Array Creation</li>
+                    <li>Data Type Objects</li>
+                    <li>Data type Object (dtype) in NumPy</li>
+                    <li>Indexing</li>
+                    <li>Basic Slicing and ALinear Algebra</li>
+                    <li>Sorting, Searching and Counting</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="heading5">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapse5"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Pandas DataFrame & Data Analysis
+                    <i class="fa fa-plus"></i>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapse5"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>Pandas DataFrame</li>
+                    <li>Data Analysis</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="heading6">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapse6"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Statistics Fundamentals
+                    <i class="fa fa-plus"></i>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapse6"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>Graphically Displaying Single Variable</li>
+                    <li>Measures of Location</li>
+                    <li>Measures of Spread</li>
+                    <li>Displaying relationship – Bivariate Data</li>
+                    <li>Scatterplot</li>
+                    <li>Measures of association of two or more variables</li>
+                    <li>Covariance and Correlation</li>
+                    <li>Probability</li>
+                    <li>Joint Probability and independent events</li>
+                    <li>Conditional probability</li>
+                    <li>Bayes’ Theorem</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="heading7">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapse7"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Machine Learning with Python <i class="fa fa-plus"></i>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapse7"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>Applications of Machine Learning</li>
+                    <li>Supervised vs Unsupervised Learning</li>
+                    <li>Python libraries suitable for Machine Learning</li>
+                    
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingeight">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapse8"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                  Regression & Classification<i class="fa fa-plus"></i>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapse8"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>Features and Labels
+                    </li>
+                    <li>Training and Testing</li>
+                    <li> Forecasting and Predicting
+                    </li>
+                    <li>Theory and how it works
+                    </li>
+                    <li>How to program the Best Fit Slope</li>
+                    <li>R Squared and Coefficient of Determination Theory
+                    </li>
+                    <li>Model evaluation methods
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingnine">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapse9"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                  Recommender Systems<i class="fa fa-plus"></i>
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapse9"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>Content-based recommender systems
+                    </li>
+                    <li>MCollaborative Filtering
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="card des">
+            <img src="/assets/images/card.png" alt="" />
+            <div class="card-body">
+              <p class="card-title">This course includes:</p>
+              <p class="card-content">
+                Video lessons, ebooks, and exclusive course material for the entire field of Data Science with emphasis on Python and Machine Learning.
+              </p>
+            </div>
+            <hr />
+            <div class="footer">
+              <!-- <p class="text-center">Check other similar courses</p> -->
+              <a class="explore" href="#">Explore other courses</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        // Add minus icon for collapse element which is open by default
+        $(".collapse.show").each(function () {
+          $(this)
+            .prev(".card-header")
+            .find(".fa")
+            .addClass("fa-minus")
+            .removeClass("fa-plus");
+        });
+
+        // Toggle plus minus icon on show hide of collapse element
+        $(".collapse")
+          .on("show.bs.collapse", function () {
+            $(this)
+              .prev(".card-header")
+              .find(".fa")
+              .removeClass("fa-plus")
+              .addClass("fa-minus");
+          })
+          .on("hide.bs.collapse", function () {
+            $(this)
+              .prev(".card-header")
+              .find(".fa")
+              .removeClass("fa-minus")
+              .addClass("fa-plus");
+          });
+      });
+
+      $(document).ready(function () {
+        // Add minus icon for collapse element which is open by default
+        $(".collapse.show").each(function () {
+          $(this)
+            .prev(".card-heading")
+            .find(".fa")
+            .addClass("fa-minus")
+            .removeClass("fa-plus");
+        });
+
+        // Toggle plus minus icon on show hide of collapse element
+        $(".collapse")
+          .on("show.bs.collapse", function () {
+            $(this)
+              .prev(".card-heading")
+              .find(".fa")
+              .removeClass("fa-plus")
+              .addClass("fa-minus");
+          })
+          .on("hide.bs.collapse", function () {
+            $(this)
+              .prev(".card-heading")
+              .find(".fa")
+              .removeClass("fa-minus")
+              .addClass("fa-plus");
+          });
+      });
+    </script>
+
+    <!-- footer start  -->
+    <footer>
+      <div
+        class="main-footer XXsnipcss_extracted_selector_selectionXX"
+        style="margin-top: -1px"
+      >
+        <div class="row">
+          <div class="col-md-0"></div>
+          <div class="col-md-3">
+            <div class="points">
+              <h6 style="text-align: center">Get in touch with Us</h6>
+              <p
+                style="
+                  text-align: justify;
+                  font-weight: 300;
+                  text-transform: none;
+                  padding-top: 0;
+                "
+              >
+                The platform wants to provide the best kind of education to a
+                student so that not only does he excel in his respective
+                discipline, but even is able to identify his interests and work
+                on them.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="points">
+              <h6>Community</h6>
+              <div class="links">
+                <a href="TnCs.html"> Terms and conditions </a>
+              </div>
+              <div class="links">
+                <a href="privacy.html"> Privacy policy </a>
+              </div>
+              <div class="links">
+                <a href="#section5"> FAQs </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="points">
+              <h6>Skolar Tech</h6>
+              <div class="links">
+                <a href="#">About us</a>
+              </div>
+              <div class="links">
+                <a href="#"> Blogs</a>
+              </div>
+              <div class="links">
+                <a href="#"> Careers</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="points">
+              <h6>Need help?</h6>
+              <div class="links">
+                <a href="tel:7007716082">+91 7007716082</a>
+              </div>
+              <div class="links">
+                <a href="mailto:support@skolar.in ">support@skolar.in</a>
+              </div>
+              <br />
+              <div class="links">
+                <a
+                  href="https://www.google.com/maps/place/OBEYA+GUSTO/@12.9158856,77.6323184,21z/data=!4m8!1m2!2m1!1sL367,+14th+Cross+Rd,+Sector+6,+HSR+Layout+560102!3m4!1s0x3bae15c49c040309:0x6553433f72187bdb!8m2!3d12.9159393!4d77.6324496"
+                  style="text-align: justify"
+                  target="_blank"
+                >
+                  L367, 14th Cross Rd, Sector 6, HSR Layout 560102</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="points follow">
+              <h6 style="margin-left: 6px">Follow Us</h6>
+              <div style="margin-left: 0px" class="row">
+                <div class="col">
+                  <a href="https://www.facebook.com/skolar.in" target="blank">
+                    <img
+                      src="/assets/images/iconpack/facebook.png"
+                      alt="facebook - Skolar"
+                    />
+                  </a>
+                  <a href="https://www.instagram.com/skolar.in" target="blank">
+                    <img
+                      src="/assets/images/iconpack/instagram.png"
+                      alt="instagram - Skolar"
+                    />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/66229334/admin/"
+                    target="blank"
+                  >
+                    <img
+                      src="/assets/images/iconpack/linkedin.png"
+                      alt="linkedin - Skolar"
+                    />
+                  </a>
+                  <a
+                    href="https://www.youtube.com/channel/UCCs6pdTHeMo_M0U5JUbppqg"
+                    target="blank"
+                  >
+                    <img
+                      src="/assets/images/iconpack/youtube.png"
+                      alt="youtube - Skolar"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div style="margin-bottom: 2em; margin-left: 0px" class="row">
+                <div class="col"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="color: rgb(48, 46, 46)" class="line">
+          <hr />
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 connect text-center">
+                <!-- <p class="label">Contact Us:&nbsp;&nbsp;</p> -->
+                <a href="tel:+917007716082" class="content"> +91-7007716082 </a>
+              </div>
+              <div class="col-md-6 connect text-center">
+                <!-- <p class="label">Email:&nbsp;&nbsp;</p> -->
+                <a href="mailto:support@skolar.in" class="content">
+                  support@skolar.in
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              <i class="fa fa-copyright"></i> Copyright 2020 by Skolar EdTech |
+              Design:
+              <a href="https://skolar.in/" rel="sponsored" target="_parent"
+                >skolar.in</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end  -->
+  </body>
+</html>
