@@ -956,9 +956,9 @@ a:not([href]):not([tabindex]) {
 .accordion:hover {
   color: #ccc;
 }
-.active {
+/* .active {
   color: #1b2946;
-}
+} */
 
 .accordion:after {
   content: "\002B";
